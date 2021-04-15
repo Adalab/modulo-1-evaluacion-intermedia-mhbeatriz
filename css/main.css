@@ -31,11 +31,17 @@ box-sizing: border-box;
     font-size: 16px;
     margin-right: 10px;
 }
+.blog:hover {
+    color:#3CDBC0 ;
+}
 .contact {
     text-decoration: none;
     color: #4a4a4a ;
     font-size: 16px;
     margin-left: 10px;
+}
+.contact:hover {
+    color:#3CDBC0 
 }
 
 .main {
