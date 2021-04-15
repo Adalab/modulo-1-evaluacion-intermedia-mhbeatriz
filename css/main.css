@@ -1,0 +1,57 @@
+* {
+font-family: 'Rubik', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.image {
+    width: 155px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    
+}
+
+.blog {
+    text-decoration: none;
+    color: #4a4a4a ;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.contact {
+    text-decoration: none;
+    color: #4a4a4a ;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.main {
+    background-color:#3CDBC0;
+    height: 100vh;
+    color: #FFFFFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    margin-left: ;
+}
