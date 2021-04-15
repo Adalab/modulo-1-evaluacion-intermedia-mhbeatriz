@@ -28,7 +28,7 @@ box-sizing: border-box;
     margin-right: 10px;
 }
 .blog:hover {
-    color:#3CDBC0 ;
+    color:#3CDBC0;
 }
 .contact {
     text-decoration: none;
@@ -37,12 +37,12 @@ box-sizing: border-box;
     margin-left: 10px;
 }
 .contact:hover {
-    color:#3CDBC0 
+    color:#3CDBC0; 
 }
 .main {
     background-color:#3CDBC0;
     height: 100vh;
-    color: #FFFFFF ;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,6 @@ box-sizing: border-box;
     flex-direction: column;
     text-align: center;
     font-size: 30px;
-    margin-left: ;
 }
 
 @media all and (min-width:768px) {
