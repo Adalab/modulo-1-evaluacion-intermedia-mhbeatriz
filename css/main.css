@@ -1,70 +1,73 @@
 * {
-font-family: 'Rubik', sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background-color: white;
-}
-.image {
-    width: 155px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.menu {
-    text-transform: uppercase;
-    margin-bottom: 13px;
-}
-.blog {
-    text-decoration: none;
-    color: #4a4a4a ;
-    font-size: 16px;
-    margin-right: 10px;
-}
-.blog:hover {
-    color:#3CDBC0;
-}
-.contact {
-    text-decoration: none;
-    color: #4a4a4a ;
-    font-size: 16px;
-    margin-left: 10px;
-}
-.contact:hover {
-    color:#3CDBC0; 
-}
-.main {
-    background-color:#3CDBC0;
-    height: 100vh;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: white;
 }
 .title {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 30px;
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-@media all and (min-width:768px) {
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .title {
-        font-size: 40px;
-    }
+.nav {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 13px;
+  padding: 10px;
+}
+.blog {
+  color: #4a4a4a;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.blog:hover {
+  color: #3cdbc0;
+}
+.contact {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.contact:hover {
+  color: #3cdbc0;
+}
+.main {
+  background-color: #3cdbc0;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .title {
+    font-size: 40px;
+  }
 }
